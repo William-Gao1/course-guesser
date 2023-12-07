@@ -1,23 +1,18 @@
 import { useState, useEffect } from 'react';
 
-import { getCourses } from '../../services/get_courses';
 import { getRandomCourse } from '../../services/game';
 import LevelSelector from '../../components/LevelSelector';
 import ResultDisplay from '../../components/ResultDisplay';
 
-export const GamePage = () => {
-  const [courses, setCourses] = useState([])
+export const GamePage = ({courses, departments, guessDepartment}) => {
   const [numCorrect, setNumCorrect] = useState(0)
   const [numIncorrect, setNumIncorrect] = useState(0)
   const [currentCourse, setCurrentCourse] = useState({})
   const [selected, setSelected] = useState(null)
 
   useEffect(() => {
-    getCourses().then((data) => {
-      setCourses(data)
-      setCurrentCourse(getRandomCourse(data))
-    })
-  }, [])
+    setCurrentCourse(getRandomCourse(courses))
+  }, [courses])
 
   const nextRoundCallback = (isCorrect) => {
     if (isCorrect) {
@@ -29,10 +24,7 @@ export const GamePage = () => {
     setSelected(null)
   }
 
-  return courses.length === 0 ? (<div>
-    Loading...
-  </div>
-  ):(
+  return (
     <>
       <div>
         Correct: {numCorrect}
@@ -48,7 +40,7 @@ export const GamePage = () => {
         {currentCourse.name}
       </div>
       
-      {selected ? <ResultDisplay course={currentCourse} selected={selected} nextRoundCallback={nextRoundCallback} /> : <LevelSelector selectCallback={(level, faculty) => setSelected({level: level, faculty: faculty})}/>}
+      {selected ? <ResultDisplay course={currentCourse} selected={selected} nextRoundCallback={nextRoundCallback} /> : <LevelSelector guessDepartment={guessDepartment} departments={departments} selectCallback={(level, faculty) => setSelected({level: level, faculty: faculty})}/>}
 
       </div>
     </>

@@ -37,8 +37,25 @@ export const getCourses = async () => {
     if (!validFaculties.includes(obj.faculty)) {
       return false
     }
+    if (obj.code.endsWith('l')) {
+      return false
+    }
+    if(obj.name.includes("Topics") || obj.name.includes("Readings") || obj.name.includes("Project") || obj.name.includes("Multidisciplinary Studies") || obj.name.includes("Seminar") || obj.name.includes("Reading")) {
+      return false
+    }
+    if (obj.code.includes("/")) {
+      return false
+    }
     return true
   });
 
-  return filteredArray;
+  return filteredArray.sort((obj1, obj2) => {
+    if (obj1.faculty < obj2.faculty) {
+      return 1
+    } else if (obj1.faculty === obj2.faculty) {
+      return 0
+    } else {
+      return -1
+    }
+  });
 }

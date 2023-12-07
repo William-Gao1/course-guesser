@@ -1,0 +1,474 @@
+[
+  {
+    "code": "AFM",
+    "name": "Accounting & Financial Management"
+  },
+  {
+    "code": "ACTSC",
+    "name": "Actuarial Science"
+  },
+  {
+    "code": "ASL",
+    "name": "American Sign Language"
+  },
+  {
+    "code": "ANTH",
+    "name": "Anthropology"
+  },
+  {
+    "code": "APPLS",
+    "name": "Applied Language Studies"
+  },
+  {
+    "code": "AMATH",
+    "name": "Applied Mathematics"
+  },
+  {
+    "code": "ARABIC",
+    "name": "Arabic"
+  },
+  {
+    "code": "AE",
+    "name": "Architectural Engineering"
+  },
+  {
+    "code": "ARCH",
+    "name": "Architecture"
+  },
+  {
+    "code": "ARTS",
+    "name": "Arts"
+  },
+  {
+    "code": "ARBUS",
+    "name": "Arts and Business"
+  },
+  {
+    "code": "AVIA",
+    "name": "Aviation"
+  },
+  {
+    "code": "BIOL",
+    "name": "Biology"
+  },
+  {
+    "code": "BME",
+    "name": "Biomedical Engineering"
+  },
+  {
+    "code": "BLKST",
+    "name": "Black Studies"
+  },
+  {
+    "code": "BASE",
+    "name": "Bridge to Academic Success in English"
+  },
+  {
+    "code": "BUS",
+    "name": "Business (Wilfrid Laurier University)"
+  },
+  {
+    "code": "BET",
+    "name": "Business, Entrepreneurship and Technology"
+  },
+  {
+    "code": "CDNST",
+    "name": "Canadian Studies"
+  },
+  {
+    "code": "CHE",
+    "name": "Chemical Engineering"
+  },
+  {
+    "code": "CHEM",
+    "name": "Chemistry"
+  },
+  {
+    "code": "CHINA",
+    "name": "Chinese"
+  },
+  {
+    "code": "CMW",
+    "name": "Church Music and Worship"
+  },
+  {
+    "code": "CIVE",
+    "name": "Civil Engineering"
+  },
+  {
+    "code": "CLAS",
+    "name": "Classical Studies"
+  },
+  {
+    "code": "COGSCI",
+    "name": "Cognitive Science"
+  },
+  {
+    "code": "CO",
+    "name": "Combinatorics and Optimization"
+  },
+  {
+    "code": "COMM",
+    "name": "Commerce"
+  },
+  {
+    "code": "COMMST",
+    "name": "Communication Studies"
+  },
+  {
+    "code": "CS",
+    "name": "Computer Science"
+  },
+  {
+    "code": "CFM",
+    "name": "Computing and Financial Management"
+  },
+  {
+    "code": "CROAT",
+    "name": "Croatian"
+  },
+  {
+    "code": "CI",
+    "name": "Cultural Identities"
+  },
+  {
+    "code": "DAC",
+    "name": "Digital Arts Communication"
+  },
+  {
+    "code": "DUTCH",
+    "name": "Dutch"
+  },
+  {
+    "code": "EARTH",
+    "name": "Earth Sciences"
+  },
+  {
+    "code": "EASIA",
+    "name": "East Asian Studies"
+  },
+  {
+    "code": "ECON",
+    "name": "Economics"
+  },
+  {
+    "code": "ECE",
+    "name": "Electrical and Computer Engineering"
+  },
+  {
+    "code": "ENGL",
+    "name": "English"
+  },
+  {
+    "code": "EMLS",
+    "name": "English for Multilingual Speakers"
+  },
+  {
+    "code": "ENVS",
+    "name": "Environment"
+  },
+  {
+    "code": "ENBUS",
+    "name": "Environment and Business"
+  },
+  {
+    "code": "ERS",
+    "name": "Environment, Resources and Sustainability"
+  },
+  {
+    "code": "ENVE",
+    "name": "Environmental Engineering"
+  },
+  {
+    "code": "FINE",
+    "name": "Fine Arts"
+  },
+  {
+    "code": "FR",
+    "name": "French Studies/\u00c9tudes Fran\u00e7aises"
+  },
+  {
+    "code": "GSJ",
+    "name": "Gender and Social Justice"
+  },
+  {
+    "code": "GENE",
+    "name": "General Engineering"
+  },
+  {
+    "code": "GEOG",
+    "name": "Geography and Environmental Management"
+  },
+  {
+    "code": "GEOE",
+    "name": "Geological Engineering"
+  },
+  {
+    "code": "GER",
+    "name": "German"
+  },
+  {
+    "code": "GERON",
+    "name": "Gerontology"
+  },
+  {
+    "code": "GBDA",
+    "name": "Global Business and Digital Arts"
+  },
+  {
+    "code": "GRK",
+    "name": "Greek"
+  },
+  {
+    "code": "HEALTH",
+    "name": "Health"
+  },
+  {
+    "code": "HHUM",
+    "name": "Health Humanities"
+  },
+  {
+    "code": "HIST",
+    "name": "History"
+  },
+  {
+    "code": "HRM",
+    "name": "Human Resources Management"
+  },
+  {
+    "code": "HRTS",
+    "name": "Human Rights"
+  },
+  {
+    "code": "HUMSC",
+    "name": "Human Sciences"
+  },
+  {
+    "code": "INDENT",
+    "name": "Indigenous Entrepreneurship"
+  },
+  {
+    "code": "INDG",
+    "name": "Indigenous Studies"
+  },
+  {
+    "code": "INDEV",
+    "name": "International Development"
+  },
+  {
+    "code": "INTST",
+    "name": "International Studies"
+  },
+  {
+    "code": "ITAL",
+    "name": "Italian"
+  },
+  {
+    "code": "ITALST",
+    "name": "Italian Studies"
+  },
+  {
+    "code": "JAPAN",
+    "name": "Japanese"
+  },
+  {
+    "code": "JS",
+    "name": "Jewish Studies"
+  },
+  {
+    "code": "KIN",
+    "name": "Kinesiology"
+  },
+  {
+    "code": "INTEG",
+    "name": "Knowledge Integration"
+  },
+  {
+    "code": "KOREA",
+    "name": "Korean"
+  },
+  {
+    "code": "LAT",
+    "name": "Latin"
+  },
+  {
+    "code": "LS",
+    "name": "Legal Studies"
+  },
+  {
+    "code": "MGMT",
+    "name": "Management"
+  },
+  {
+    "code": "MSCI",
+    "name": "Management Sciences"
+  },
+  {
+    "code": "MNS",
+    "name": "Materials and Nano-Sciences"
+  },
+  {
+    "code": "MATBUS",
+    "name": "Mathematical Business"
+  },
+  {
+    "code": "MATH",
+    "name": "Mathematics"
+  },
+  {
+    "code": "MTHEL",
+    "name": "Mathematics Electives"
+  },
+  {
+    "code": "ME",
+    "name": "Mechanical Engineering"
+  },
+  {
+    "code": "MTE",
+    "name": "Mechatronics Engineering"
+  },
+  {
+    "code": "MEDVL",
+    "name": "Medieval Studies"
+  },
+  {
+    "code": "MENN",
+    "name": "Mennonite Studies"
+  },
+  {
+    "code": "MOHAWK",
+    "name": "Mohawk"
+  },
+  {
+    "code": "MUSIC",
+    "name": "Music"
+  },
+  {
+    "code": "NE",
+    "name": "Nanotechnology Engineering"
+  },
+  {
+    "code": "OPTOM",
+    "name": "Optometry"
+  },
+  {
+    "code": "PACS",
+    "name": "Peace and Conflict Studies"
+  },
+  {
+    "code": "PHARM",
+    "name": "Pharmacy"
+  },
+  {
+    "code": "PHIL",
+    "name": "Philosophy"
+  },
+  {
+    "code": "PHYS",
+    "name": "Physics"
+  },
+  {
+    "code": "PLAN",
+    "name": "Planning"
+  },
+  {
+    "code": "PSCI",
+    "name": "Political Science"
+  },
+  {
+    "code": "PORT",
+    "name": "Portuguese"
+  },
+  {
+    "code": "PSYCH",
+    "name": "Psychology"
+  },
+  {
+    "code": "HLTH",
+    "name": "Public Health Sciences"
+  },
+  {
+    "code": "PMATH",
+    "name": "Pure Mathematics"
+  },
+  {
+    "code": "REC",
+    "name": "Recreation and Leisure Studies"
+  },
+  {
+    "code": "RS",
+    "name": "Religious Studies"
+  },
+  {
+    "code": "RUSS",
+    "name": "Russian"
+  },
+  {
+    "code": "REES",
+    "name": "Russian and East European Studies"
+  },
+  {
+    "code": "SCI",
+    "name": "Science"
+  },
+  {
+    "code": "SCBUS",
+    "name": "Science and Business"
+  },
+  {
+    "code": "SMF",
+    "name": "Sexuality, Marriage, and Family Studies"
+  },
+  {
+    "code": "SDS",
+    "name": "Social Development Studies"
+  },
+  {
+    "code": "SOCWK",
+    "name": "Social Work (Social Development Studies)"
+  },
+  {
+    "code": "SWREN",
+    "name": "Social Work (Bachelor of Social Work)"
+  },
+  {
+    "code": "STV",
+    "name": "Society, Technology and Values"
+  },
+  {
+    "code": "SOC",
+    "name": "Sociology"
+  },
+  {
+    "code": "SE",
+    "name": "Software Engineering"
+  },
+  {
+    "code": "SPAN",
+    "name": "Spanish"
+  },
+  {
+    "code": "STAT",
+    "name": "Statistics"
+  },
+  {
+    "code": "SI",
+    "name": "Studies in Islam"
+  },
+  {
+    "code": "SFM",
+    "name": "Sustainability and Financial Management"
+  },
+  {
+    "code": "SYDE",
+    "name": "Systems Design Engineering"
+  },
+  {
+    "code": "THPERF",
+    "name": "Theatre and Performance"
+  },
+  {
+    "code": "VCULT",
+    "name": "Visual Culture"
+  }
+]

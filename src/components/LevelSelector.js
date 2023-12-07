@@ -1,9 +1,8 @@
 import { useState } from "react";
 
-import { validFaculties } from "../services/get_courses";
-export default function LevelSelector({selectCallback}) {
+export default function LevelSelector({selectCallback, departments, guessDepartment}) {
   const [level, setLevel] = useState(1)
-  const [faculty, setFaculty] = useState(validFaculties[0])
+  const [faculty, setFaculty] = useState(departments[0])
   // Array of button labels from 1 to 5
   const buttonLabels = [1, 2, 3, 4, 5];
 
@@ -15,9 +14,14 @@ export default function LevelSelector({selectCallback}) {
         <select onChange={(levelChange) => setLevel(levelChange.target.value)}>
           {buttonLabels.map((level) => <option key={level} value={level}>{level}</option>)}
         </select>
-        <select onChange={(facultyChange) => setFaculty(facultyChange.target.value)}>
-          {validFaculties.map((faculty) => <option key={faculty} value={faculty}>{faculty}</option>)}
-        </select>
+        {
+          guessDepartment ? (
+            <select onChange={(facultyChange) => setFaculty(facultyChange.target.value)}>
+              {departments.map((faculty) => <option key={faculty} value={faculty}>{faculty}</option>)}
+            </select>
+          ) : null
+        }
+        
         <button onClick={() => selectCallback(level, faculty)}>Submit</button>
       </div>
       
